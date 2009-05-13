@@ -4,6 +4,8 @@
 
 == Yahoo! Weather ==
 
+===Script===
+
 {{{
 import yweather
 import pprint
@@ -16,6 +18,7 @@ pp.pprint(weather_data)
 }}}
 
 ===Result===
+
 {{{
 {   'astronomy': {   'sunrise': u'4:50 am', 'sunset': u'8:38 pm'},
     'atmosphere': {   'humidity': u'20',
@@ -52,6 +55,21 @@ pp.pprint(weather_data)
 
 == Google Weather ==
 
+===Script===
+
+{{{
+import yweather.google
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+result = yweather.google.get_weather('10001')
+
+pp.pprint(result)
+}}}
+
+===Result===
+
+{{{
 {   'current_conditions': {   'condition': u'Clear',
                               'humidity': u'Humidity: 40%',
                               'icon': u'/ig/images/weather/sunny.gif',
@@ -85,3 +103,4 @@ pp.pprint(weather_data)
                          'high': u'72',
                          'icon': u'/ig/images/weather/chance_of_storm.gif',
                          'low': u'54'}]}
+}}}
