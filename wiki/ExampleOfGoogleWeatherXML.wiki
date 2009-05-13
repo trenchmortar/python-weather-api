@@ -1,0 +1,52 @@
+{{{
+<?xml version="1.0"?>
+<xml_api_reply version="1">
+<weather module_id="0" tab_id="0" mobile_row="0" mobile_zipped="1" row="0" section="0">
+  <forecast_information>
+	<city data="New York, NY"/>
+	<postal_code data="10001"/>
+	<latitude_e6 data=""/>
+	<longitude_e6 data=""/>
+	<forecast_date data="2009-05-13"/>
+	<current_date_time data="2009-05-13 14:36:52 +0000"/>
+	<unit_system data="US"/>
+  </forecast_information>
+  <current_conditions>
+	<condition data="Clear"/>
+	<temp_f data="69"/>
+	<temp_c data="21"/>
+	<humidity data="Humidity: 35%"/>
+	<icon data="/ig/images/weather/sunny.gif"/>
+	<wind_condition data="Wind: SW at 0 mph"/>
+  </current_conditions>
+  <forecast_conditions>
+	<day_of_week data="Wed"/>
+	<low data="52"/>
+	<high data="70"/>
+	<icon data="/ig/images/weather/sunny.gif"/>
+	<condition data="Clear"/>
+  </forecast_conditions>
+  <forecast_conditions>
+	<day_of_week data="Thu"/>
+	<low data="58"/>
+	<high data="68"/>
+	<icon data="/ig/images/weather/chance_of_rain.gif"/>
+	<condition data="Chance of Showers"/>
+  </forecast_conditions>
+  <forecast_conditions>
+	<day_of_week data="Fri"/>
+	<low data="56"/>
+	<high data="72"/>
+	<icon data="/ig/images/weather/chance_of_storm.gif"/>
+	<condition data="Chance of Storm"/>
+  </forecast_conditions>
+  <forecast_conditions>
+	<day_of_week data="Sat"/>
+	<low data="54"/>
+	<high data="72"/>
+	<icon data="/ig/images/weather/chance_of_storm.gif"/>
+	<condition data="Chance of Storm"/>
+  </forecast_conditions>
+</weather>
+</xml_api_reply>
+}}}
