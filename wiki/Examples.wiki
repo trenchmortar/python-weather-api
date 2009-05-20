@@ -7,13 +7,13 @@
 ===Script===
 
 {{{
-import yweather
+import pywapi
 import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
 location = 'RSXX0199'
-weather_data = yweather.get_weather(location, 'metric')
+weather_data = pywapi.get_weather(location, 'metric')
 pp.pprint(weather_data)
 }}}
 
@@ -58,11 +58,11 @@ pp.pprint(weather_data)
 ===Script===
 
 {{{
-import yweather.google
+import pywapi.google
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
-result = yweather.google.get_weather('10001')
+result = pywapi.google.get_weather('10001')
 
 pp.pprint(result)
 }}}
