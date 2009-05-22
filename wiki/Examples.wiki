@@ -1,8 +1,6 @@
 #summary Examples of usage
 <wiki:toc max_depth="1" />
 
-= Examples of usage = 
-
 == Yahoo! Weather ==
 
 ===Script===
