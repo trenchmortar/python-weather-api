@@ -1,105 +1,72 @@
 #summary Examples of usage
 <wiki:toc max_depth="2" />
 
-== Yahoo! Weather ==
+= Yahoo! Weather =
 
-===Script===
+==Script==
 
 {{{
 import pywapi
 import pprint
-
 pp = pprint.PrettyPrinter(indent=4)
 
-location = 'RSXX0199'
-weather_data = pywapi.get_weather(location, 'metric')
-pp.pprint(weather_data)
+result = pywapi.get_weather_from_yahoo('RSXX0199', 'metric')
+pp.pprint(result)
 }}}
 
-===Result===
-
+==Result==
 {{{
-{   'astronomy': {   'sunrise': u'4:50 am', 'sunset': u'8:38 pm'},
-    'atmosphere': {   'humidity': u'20',
-                      'pressure': u'0',
-                      'rising': u'0',
-                      'visibility': u'9.99'},
-    'condition': {   'code': u'34',
-                     'date': u'Mon, 11 May 2009 2:30 pm MSD',
-                     'temp': u'23',
-                     'text': u'Fair',
-                     'title': u'Conditions for Ulyanovsk, RS at 2:30 pm MSD'},
-    'forecasts': [   {   'code': u'32',
-                         'date': u'11 May 2009',
-                         'high': u'27',
-                         'low': u'9',
-                         'text': u'Sunny'},
-                     {   'code': u'32',
-                         'date': u'12 May 2009',
-                         'high': u'27',
-                         'low': u'11',
-                         'text': u'Sunny'}],
-    'geo': {   'lat': u'54.32', 'long': u'48.33'},
-    'html_description': u'\n<img src="http://l.yimg.com/a/i/us/we/52/34.gif"/><br />\n<b>Current Conditions:</b><br />\nFair, 23 C<BR />\n<BR /><b>Forecast:</b><BR />\nMon - Sunny. High: 27 Low: 9<br />\nTue - Sunny. High: 27 Low: 11<br />\n<br />\n<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Ulyanovsk__RS/*http://weather.yahoo.com/forecast/RSXX0199_c.html">Full Forecast at Yahoo! Weather</a><BR/>\n(provided by The Weather Channel)<br/>\n',
-    'link': u'http://us.rd.yahoo.com/dailynews/rss/weather/Ulyanovsk__RS/*http://weather.yahoo.com/forecast/RSXX0199_c.html',
-    'location': {   'city': u'Ulyanovsk', 'country': u'RS', 'region': u''},
-    'title': u'Yahoo! Weather - Ulyanovsk, RS',
+[~] python examples/pywapi-yahoo-example.py
+
+{   'astronomy': {   'sunrise': u'5:28 am', 'sunset': u'8:19 pm'},
+    'atmosphere': {   'humidity': u'97',
+                      'pressure': u'1008',
+                      'rising': u'2',
+                      'visibility': u'2.82'},
+    'condition': {   'code': u'20',
+                     'date': u'Fri, 29 May 2009 9:51 am EDT',
+                     'temp': u'14',
+                     'text': u'Fog',
+                     'title': u'Conditions for New York, NY at 9:51 am EDT'},
+    'forecasts': [   {   'code': u'11',
+                         'date': u'29 May 2009',
+                         'high': u'22',
+                         'low': u'15',
+                         'text': u'Thundershowers'},
+                     {   'code': u'39',
+                         'date': u'30 May 2009',
+                         'high': u'26',
+                         'low': u'14',
+                         'text': u'PM Showers'}],
+    'geo': {   'lat': u'40.67', 'long': u'-73.94'},
+    'html_description': u'\n<img src="http://l.yimg.com/a/i/us/we/52/20.gif"/><br />\n<b>Current Conditions:</b><br />\nFog, 14 C<BR />\n<BR /><b>Forecast:</b><BR />\nFri - Thundershowers. High: 22 Low: 15<br />\nSat - PM Showers. High: 26 Low: 14<br />\n<br />\n<a href="http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/USNY0996_c.html">Full Forecast at Yahoo! Weather</a><BR/>\n(provided by The Weather Channel)<br/>\n',
+    'link': u'http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/10001_c.html',
+    'location': {   'city': u'New York', 'country': u'US', 'region': u'NY'},
+    'title': u'Yahoo! Weather - New York, NY',
     'units': {   'distance': u'km',
                  'pressure': u'mb',
                  'speed': u'kph',
                  'temperature': u'C'},
-    'wind': {   'chill': u'23', 'direction': u'100', 'speed': u'14.48'}}
-
+    'wind': {   'chill': u'14', 'direction': u'0', 'speed': u'8.05'}}
 }}}
 
-== Google Weather ==
 
-===Script===
+= Google Weather =
 
-{{{
-import pywapi.google
-import pprint
-pp = pprint.PrettyPrinter(indent=4)
+==Script==
 
-result = pywapi.google.get_weather('10001')
+==Result==
 
-pp.pprint(result)
-}}}
 
-===Result===
+= NOAA =
 
-{{{
-{   'current_conditions': {   'condition': u'Clear',
-                              'humidity': u'Humidity: 40%',
-                              'icon': u'/ig/images/weather/sunny.gif',
-                              'temp_c': u'20',
-                              'temp_f': u'67',
-                              'wind_condition': u'Wind: SW at 0 mph'},
-    'forecast_information': {   'city': u'New York, NY',
-                                'current_date_time': u'2009-05-13 13:17:27 +0000',
-                                'forecast_date': u'2009-05-13',
-                                'latitude_e6': u'',
-                                'longitude_e6': u'',
-                                'postal_code': u'10001',
-                                'unit_system': u'US'},
-    'forecasts': [   {   'condition': u'Clear',
-                         'day_of_week': u'Wed',
-                         'high': u'70',
-                         'icon': u'/ig/images/weather/sunny.gif',
-                         'low': u'52'},
-                     {   'condition': u'Chance of Showers',
-                         'day_of_week': u'Thu',
-                         'high': u'68',
-                         'icon': u'/ig/images/weather/chance_of_rain.gif',
-                         'low': u'58'},
-                     {   'condition': u'Chance of Storm',
-                         'day_of_week': u'Fri',
-                         'high': u'72',
-                         'icon': u'/ig/images/weather/chance_of_storm.gif',
-                         'low': u'56'},
-                     {   'condition': u'Chance of Storm',
-                         'day_of_week': u'Sat',
-                         'high': u'72',
-                         'icon': u'/ig/images/weather/chance_of_storm.gif',
-                         'low': u'54'}]}
-}}}
+==Script==
+
+==Result==
+
+
+= GisMeteo =
+
+==Script==
+
+==Result==
