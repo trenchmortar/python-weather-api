@@ -55,18 +55,207 @@ pp.pprint(result)
 
 ==Script==
 
+{{{
+import pywapi
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+result = pywapi.get_weather_from_google('10001')
+pp.pprint(result)
+}}}
+
+
 ==Result==
+
+{{{
+[~] python examples/pywapi-google-example.py
+
+{   'current_conditions': {   'condition': u'Overcast',
+                              'humidity': u'Humidity: 98%',
+                              'icon': u'/ig/images/weather/cloudy.gif',
+                              'temp_c': u'14',
+                              'temp_f': u'58',
+                              'wind_condition': u'Wind: NW at 0 mph'},
+    'forecast_information': {   'city': u'New York, NY',
+                                'current_date_time': u'2009-05-29 13:36:46 +0000',
+                                'forecast_date': u'2009-05-29',
+                                'latitude_e6': u'',
+                                'longitude_e6': u'',
+                                'postal_code': u'10001',
+                                'unit_system': u'US'},
+    'forecasts': [   {   'condition': u'Thunderstorm',
+                         'day_of_week': u'Fri',
+                         'high': u'72',
+                         'icon': u'/ig/images/weather/thunderstorm.gif',
+                         'low': u'61'},
+                     {   'condition': u'Chance of Storm',
+                         'day_of_week': u'Sat',
+                         'high': u'77',
+                         'icon': u'/ig/images/weather/chance_of_storm.gif',
+                         'low': u'56'},
+                     {   'condition': u'Mostly Sunny',
+                         'day_of_week': u'Sun',
+                         'high': u'76',
+                         'icon': u'/ig/images/weather/mostly_sunny.gif',
+                         'low': u'56'},
+                     {   'condition': u'Chance of Storm',
+                         'day_of_week': u'Mon',
+                         'high': u'81',
+                         'icon': u'/ig/images/weather/chance_of_storm.gif',
+                         'low': u'63'}]}
+
+}}}
 
 
 = NOAA =
 
 ==Script==
 
+{{{
+import pywapi
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+result = pywapi.get_weather_from_noaa('KJFK')
+pp.pprint(result)
+}}}
+
 ==Result==
 
+{{{
+[~] python examples/pywapi-noaa-example.py
 
-= GisMeteo =
+{   'dewpoint_c': u'13',
+    'dewpoint_f': u'55',
+    'dewpoint_string': u'55 F (13 C)',
+    'heat_index_c': u'NA',
+    'heat_index_f': u'NA',
+    'heat_index_string': u'NA',
+    'icon_url_base': u'http://weather.gov/weather/images/fcicons/',
+    'icon_url_name': u'ovc.jpg',
+    'latitude': u'40.66',
+    'location': u'New York/John F. Kennedy Intl Airport, NY',
+    'longitude': u'-73.78',
+    'ob_url': u'http://www.nws.noaa.gov/data/METAR/KJFK.1.txt',
+    'observation_time': u'Last Updated on May 29, 9:51 am EDT',
+    'observation_time_rfc822': u'Fri, 29 May 2009 09:51:00 -0400 EDT',
+    'pressure_in': u'29.77',
+    'pressure_mb': u'1008.1',
+    'pressure_string': u'29.77" (1008.1 mb)',
+    'relative_humidity': u'87',
+    'station_id': u'KJFK',
+    'suggested_pickup': u'15 minutes after the hour',
+    'suggested_pickup_period': u'60',
+    'temp_c': u'15',
+    'temp_f': u'59',
+    'temperature_string': u'59 F (15 C)',
+    'two_day_history_url': u'http://www.weather.gov/data/obhistory/KJFK.html',
+    'weather': u'Overcast',
+    'wind_degrees': u'10',
+    'wind_dir': u'North',
+    'wind_gust_mph': u'NA',
+    'wind_mph': u'4.6',
+    'wind_string': u'From the North at 5 MPH',
+    'windchill_c': u'15',
+    'windchill_f': u'59',
+    'windchill_string': u'59 F (15 C)'}
+
+}}}
+
+
+= `GisMeteo` =
 
 ==Script==
 
+{{{
+import pywapi
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+result = pywapi.get_weather_from_gismeteo('72503_1')
+pp.pprint(result)
+}}}
+
+
 ==Result==
+
+{{{
+[~] examples/pywapi-gismeteo-example.py
+
+{   'forecasts': [   {   'day': u'29',
+                         'heat': {   'max': u'21', 'min': u'19'},
+                         'hour': u'20',
+                         'month': u'5',
+                         'phenomena': {   'cloudiness': u'3',
+                                          'precipitation': u'4',
+                                          'rpower': u'1',
+                                          'spower': u'0'},
+                         'predict': u'18',
+                         'pressure': {   'max': u'753', 'min': u'751'},
+                         'relwet': {   'max': u'95', 'min': u'90'},
+                         'temperature': {   'max': u'20', 'min': u'18'},
+                         'tod': u'3',
+                         'weekday': u'6',
+                         'wind': {   'direction': u'6',
+                                     'max': u'6',
+                                     'min': u'3'},
+                         'year': u'2009'},
+                     {   'day': u'30',
+                         'heat': {   'max': u'14', 'min': u'12'},
+                         'hour': u'2',
+                         'month': u'5',
+                         'phenomena': {   'cloudiness': u'2',
+                                          'precipitation': u'5',
+                                          'rpower': u'0',
+                                          'spower': u'0'},
+                         'predict': u'24',
+                         'pressure': {   'max': u'753', 'min': u'751'},
+                         'relwet': {   'max': u'94', 'min': u'89'},
+                         'temperature': {   'max': u'15', 'min': u'13'},
+                         'tod': u'0',
+                         'weekday': u'7',
+                         'wind': {   'direction': u'7',
+                                     'max': u'6',
+                                     'min': u'3'},
+                         'year': u'2009'},
+                     {   'day': u'30',
+                         'heat': {   'max': u'16', 'min': u'14'},
+                         'hour': u'8',
+                         'month': u'5',
+                         'phenomena': {   'cloudiness': u'1',
+                                          'precipitation': u'10',
+                                          'rpower': u'0',
+                                          'spower': u'0'},
+                         'predict': u'30',
+                         'pressure': {   'max': u'754', 'min': u'752'},
+                         'relwet': {   'max': u'88', 'min': u'83'},
+                         'temperature': {   'max': u'15', 'min': u'13'},
+                         'tod': u'1',
+                         'weekday': u'7',
+                         'wind': {   'direction': u'6',
+                                     'max': u'5',
+                                     'min': u'2'},
+                         'year': u'2009'},
+                     {   'day': u'30',
+                         'heat': {   'max': u'22', 'min': u'20'},
+                         'hour': u'14',
+                         'month': u'5',
+                         'phenomena': {   'cloudiness': u'0',
+                                          'precipitation': u'10',
+                                          'rpower': u'0',
+                                          'spower': u'0'},
+                         'predict': u'36',
+                         'pressure': {   'max': u'755', 'min': u'753'},
+                         'relwet': {   'max': u'46', 'min': u'41'},
+                         'temperature': {   'max': u'25', 'min': u'23'},
+                         'tod': u'2',
+                         'weekday': u'7',
+                         'wind': {   'direction': u'6',
+                                     'max': u'6',
+                                     'min': u'3'},
+                         'year': u'2009'}],
+    'town': {   'index': u'72503',
+                'latitude': u'41',
+                'longitude': u'286',
+                'sname': u'%CD%FC%FE%2D%C9%EE%F0%EA'}}
+}}}
