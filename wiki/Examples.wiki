@@ -161,3 +161,101 @@ pp.pprint(result)
     'windchill_string': u'59 F (15 C)'}
 
 }}}
+
+
+= Countries from Google =
+
+==Script==
+
+{{{
+import pywapi
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+countries = pywapi.get_countries_from_google('en')
+
+pp.pprint(countries)
+}}}
+
+==Result==
+
+{{{
+[   {   'iso_code': u'US', 'name': u'United States'},
+    {   'iso_code': u'UK', 'name': u'United Kingdom'},
+    {   'iso_code': u'FR', 'name': u'France'},
+    {   'iso_code': u'IT', 'name': u'Italy'},
+    {   'iso_code': u'DE', 'name': u'Germany'},
+    {   'iso_code': u'ES', 'name': u'Spain'},
+    {   'iso_code': u'NL', 'name': u'Netherlands'},
+    {   'iso_code': u'CH', 'name': u'Switzerland'},
+    {   'iso_code': u'JP', 'name': u'Japan'},
+    {   'iso_code': u'KR', 'name': u'Korea'},
+    {   'iso_code': u'BR', 'name': u'Brazil'},
+    {   'iso_code': u'MX', 'name': u'Mexico'},
+    {   'iso_code': u'AU', 'name': u'Australia'},
+    {   'iso_code': u'IN', 'name': u'India'},
+    {   'iso_code': u'RU', 'name': u'Russia, CIS and Baltics'},
+    {   'iso_code': u'CA', 'name': u'Canada'},
+    {   'iso_code': u'SE', 'name': u'Sweden'},
+    {   'iso_code': u'DK', 'name': u'Denmark'},
+    {   'iso_code': u'FI', 'name': u'Finland'},
+    {   'iso_code': u'IE', 'name': u'Ireland'},
+    {   'iso_code': u'NO', 'name': u'Norway'},
+    {   'iso_code': u'NZ', 'name': u'New Zealand'},
+    {   'iso_code': u'CN', 'name': u'China Mainland'},
+    {   'iso_code': u'TW', 'name': u'Taiwan'},
+    {   'iso_code': u'HK', 'name': u'Hong Kong'},
+    {   'iso_code': u'MO', 'name': u'Macao'},
+    {   'iso_code': u'BE', 'name': u'Belgium'},
+    {   'iso_code': u'AT', 'name': u'Austria'},
+    {   'iso_code': u'CL', 'name': u'Chile'},
+    {   'iso_code': u'CO', 'name': u'Colombia'},
+    {   'iso_code': u'CZ', 'name': u'Czech Republic'},
+    {   'iso_code': u'GR', 'name': u'Greece'},
+    {   'iso_code': u'HU', 'name': u'Hungary'},
+    {   'iso_code': u'MY', 'name': u'Malaysia'},
+    {   'iso_code': u'PH', 'name': u'Philippines'},
+    {   'iso_code': u'PL', 'name': u'Poland'},
+    {   'iso_code': u'PT', 'name': u'Portugal'},
+    {   'iso_code': u'RO', 'name': u'Romania'},
+    {   'iso_code': u'SG', 'name': u'Singapore'},
+    {   'iso_code': u'TH', 'name': u'Thailand'},
+    {   'iso_code': u'TR', 'name': u'Turkey'},
+    {   'iso_code': u'UA', 'name': u'Ukraine'},
+    {   'iso_code': u'VN', 'name': u'Vietnam'},
+    {   'iso_code': u'ZA', 'name': u'South Africa'},
+    {   'iso_code': u'IL', 'name': u'Israel'},
+    {   'iso_code': u'DZ', 'name': u'Algeria'},
+    {   'iso_code': u'EG', 'name': u'Egypt'},
+    {   'iso_code': u'MA', 'name': u'Morocco'},
+    {   'iso_code': u'OM', 'name': u'Oman'},
+    {   'iso_code': u'SA', 'name': u'Saudi Arabia'},
+    {   'iso_code': u'TN', 'name': u'Tunisia'},
+    {   'iso_code': u'AE', 'name': u'United Arab Emirates'},
+    {   'iso_code': u'JO', 'name': u'Jordan'},
+    {   'iso_code': u'LB', 'name': u'Lebanon'},
+    {   'iso_code': u'BG', 'name': u'Bulgaria'},
+    {   'iso_code': u'PK', 'name': u'Pakistan'},
+    {   'iso_code': u'AR', 'name': u'Argentina'},
+    {   'iso_code': u'PE', 'name': u'Peru'},
+    {   'iso_code': u'VE', 'name': u'Venezuela'},
+    {   'iso_code': u'CR', 'name': u'Costa Rica'},
+    {   'iso_code': u'DO', 'name': u'Dominican Republic'},
+    {   'iso_code': u'GT', 'name': u'Guatemala'},
+    {   'iso_code': u'UY', 'name': u'Uruguay'},
+    {   'iso_code': u'EC', 'name': u'Ecuador'},
+    {   'iso_code': u'BO', 'name': u'Bolivia'},
+    {   'iso_code': u'PY', 'name': u'Paraguay'},
+    {   'iso_code': u'PR', 'name': u'Puerto Rico'},
+    {   'iso_code': u'PA', 'name': u'Panama'},
+    {   'iso_code': u'HN', 'name': u'Honduras'},
+    {   'iso_code': u'SV', 'name': u'El Salvador'},
+    {   'iso_code': u'HR', 'name': u'Croatia'},
+    {   'iso_code': u'SI', 'name': u'Slovenia'},
+    {   'iso_code': u'YU', 'name': u'Serbia'},
+    {   'iso_code': u'ID', 'name': u'Indonesia'},
+    {   'iso_code': u'IS', 'name': u'Iceland'},
+    {   'iso_code': u'LT', 'name': u'Lithuania'},
+    {   'iso_code': u'LV', 'name': u'Latvia'},
+    {   'iso_code': u'SK', 'name': u'Slovakia'}]
+}}}
