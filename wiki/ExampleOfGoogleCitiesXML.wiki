@@ -1,3 +1,4 @@
+{{{
 <?xml version="1.0"?>
 <xml_api_reply version="1">
 <cities>
@@ -213,3 +214,4 @@
   </city>
 </cities>
 </xml_api_reply>
+}}}
