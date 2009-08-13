@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<xml_api_reply version="1">
+<cities>
+  <city>
+    <name data="Aix-en-Provence"/>
+    <latitude_e6 data="43450000"/>
+    <longitude_e6 data="5230000"/>
+  </city>
+  <city>
+    <name data="Amiens"/>
+    <latitude_e6 data="49470001"/>
+    <longitude_e6 data="2119999"/>
+  </city>
+  <city>
+    <name data="Angers"/>
+    <latitude_e6 data="47450000"/>
+    <longitude_e6 data="720000"/>
+  </city>
+  <city>
+    <name data="Antibes"/>
+    <latitude_e6 data="43549999"/>
+    <longitude_e6 data="6949999"/>
+  </city>
+  <city>
+    <name data="Bordeaux"/>
+    <latitude_e6 data="44830001"/>
+    <longitude_e6 data="-699999"/>
+  </city>
+  <city>
+    <name data="Bourges"/>
+    <latitude_e6 data="47979999"/>
+    <longitude_e6 data="1750000"/>
+  </city>
+  <city>
+    <name data="Brest"/>
+    <latitude_e6 data="48450000"/>
+    <longitude_e6 data="-4420000"/>
+  </city>
+  <city>
+    <name data="Caen"/>
+    <latitude_e6 data="49180000"/>
+    <longitude_e6 data="-449999"/>
+  </city>
+  <city>
+    <name data="Calais"/>
+    <latitude_e6 data="50569999"/>
+    <longitude_e6 data="3099999"/>
+  </city>
+  <city>
+    <name data="Clermont-Ferrand"/>
+    <latitude_e6 data="45779998"/>
+    <longitude_e6 data="3170000"/>
+  </city>
+  <city>
+    <name data="Dijon"/>
+    <latitude_e6 data="47270000"/>
+    <longitude_e6 data="5079999"/>
+  </city>
+  <city>
+    <name data="Dunkirk"/>
+    <latitude_e6 data="50569999"/>
+    <longitude_e6 data="3099999"/>
+  </city>
+  <city>
+    <name data="Grenoble"/>
+    <latitude_e6 data="47270000"/>
+    <longitude_e6 data="5079999"/>
+  </city>
+  <city>
+    <name data="La Rochelle"/>
+    <latitude_e6 data="46150001"/>
+    <longitude_e6 data="-1149999"/>
+  </city>
+  <city>
+    <name data="Le Havre"/>
+    <latitude_e6 data="49369998"/>
+    <longitude_e6 data="170000"/>
+  </city>
+  <city>
+    <name data="Le Mans"/>
+    <latitude_e6 data="47930000"/>
+    <longitude_e6 data="200000"/>
+  </city>
+  <city>
+    <name data="Lille"/>
+    <latitude_e6 data="50569999"/>
+    <longitude_e6 data="3099999"/>
+  </city>
+  <city>
+    <name data="Limoges"/>
+    <latitude_e6 data="45869998"/>
+    <longitude_e6 data="1179999"/>
+  </city>
+  <city>
+    <name data="Lyon"/>
+    <latitude_e6 data="45720001"/>
+    <longitude_e6 data="4949999"/>
+  </city>
+  <city>
+    <name data="Marseilles"/>
+    <latitude_e6 data="43450000"/>
+    <longitude_e6 data="5230000"/>
+  </city>
+  <city>
+    <name data="Metz"/>
+    <latitude_e6 data="49080001"/>
+    <longitude_e6 data="6130000"/>
+  </city>
+  <city>
+    <name data="Montpellier"/>
+    <latitude_e6 data="43580001"/>
+    <longitude_e6 data="3970000"/>
+  </city>
+  <city>
+    <name data="Mulhouse"/>
+    <latitude_e6 data="47919998"/>
+    <longitude_e6 data="7400000"/>
+  </city>
+  <city>
+    <name data="Nantes"/>
+    <latitude_e6 data="47169998"/>
+    <longitude_e6 data="-1600000"/>
+  </city>
+  <city>
+    <name data="Nice"/>
+    <latitude_e6 data="43650001"/>
+    <longitude_e6 data="7199999"/>
+  </city>
+  <city>
+    <name data="Nimes"/>
+    <latitude_e6 data="43750000"/>
+    <longitude_e6 data="4420000"/>
+  </city>
+  <city>
+    <name data="Orleans"/>
+    <latitude_e6 data="47979999"/>
+    <longitude_e6 data="1750000"/>
+  </city>
+  <city default="true">
+    <name data="Paris"/>
+    <latitude_e6 data="49020000"/>
+    <longitude_e6 data="2529999"/>
+  </city>
+  <city>
+    <name data="Pau"/>
+    <latitude_e6 data="43380001"/>
+    <longitude_e6 data="-419999"/>
+  </city>
+  <city>
+    <name data="Perpignan"/>
+    <latitude_e6 data="42729999"/>
+    <longitude_e6 data="2869999"/>
+  </city>
+  <city>
+    <name data="Poitiers"/>
+    <latitude_e6 data="46580001"/>
+    <longitude_e6 data="319999"/>
+  </city>
+  <city>
+    <name data="Rennes"/>
+    <latitude_e6 data="48069999"/>
+    <longitude_e6 data="-1730000"/>
+  </city>
+  <city>
+    <name data="Rheims"/>
+    <latitude_e6 data="49299999"/>
+    <longitude_e6 data="4030000"/>
+  </city>
+  <city>
+    <name data="Roubaix"/>
+    <latitude_e6 data="50569999"/>
+    <longitude_e6 data="3099999"/>
+  </city>
+  <city>
+    <name data="Rouen"/>
+    <latitude_e6 data="49380001"/>
+    <longitude_e6 data="1179999"/>
+  </city>
+  <city>
+    <name data="Saint-Etienne"/>
+    <latitude_e6 data="47270000"/>
+    <longitude_e6 data="5079999"/>
+  </city>
+  <city>
+    <name data="Strasbourg"/>
+    <latitude_e6 data="48549999"/>
+    <longitude_e6 data="7630000"/>
+  </city>
+  <city>
+    <name data="Toulon"/>
+    <latitude_e6 data="43099998"/>
+    <longitude_e6 data="6150000"/>
+  </city>
+  <city>
+    <name data="Toulouse"/>
+    <latitude_e6 data="43630001"/>
+    <longitude_e6 data="1370000"/>
+  </city>
+  <city>
+    <name data="Tourcoing"/>
+    <latitude_e6 data="50569999"/>
+    <longitude_e6 data="3099999"/>
+  </city>
+  <city>
+    <name data="Tours"/>
+    <latitude_e6 data="47450000"/>
+    <longitude_e6 data="720000"/>
+  </city>
+  <city>
+    <name data="Villeurbanne"/>
+    <latitude_e6 data="45720001"/>
+    <longitude_e6 data="4949999"/>
+  </city>
+</cities>
+</xml_api_reply>
