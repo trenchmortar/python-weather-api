@@ -1,3 +1,5 @@
+Warning: The trunk version uses Python 3.
+
 #summary Examples of usage
 <wiki:toc max_depth="2" />
 
