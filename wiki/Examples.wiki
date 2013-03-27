@@ -1,5 +1,3 @@
-Note: pywapi is now compatible with both Python 2.x and 3.x.
-
 #summary Examples of usage
 <wiki:toc max_depth="2" />
 
