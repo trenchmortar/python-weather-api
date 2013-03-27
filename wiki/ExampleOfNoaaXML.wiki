@@ -1,9 +1,10 @@
 {{{
 <?xml version="1.0" encoding="ISO-8859-1"?> 
+<?xml-stylesheet href="latest_ob.xsl" type="text/xsl"?>
 <current_observation version="1.0"
 	 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	 xsi:noNamespaceSchemaLocation="http://www.weather.gov/xml/current_obs/current_observation.xsd">
+	 xsi:noNamespaceSchemaLocation="http://www.weather.gov/view/current_observation.xsd">
 	<credit>NOAA's National Weather Service</credit>
 	<credit_URL>http://weather.gov/</credit_URL>
 	<image>
@@ -15,39 +16,33 @@
 	<suggested_pickup_period>60</suggested_pickup_period>
 	<location>Kingman (amos), AZ</location>
 	<station_id>KIGM</station_id>
-        <latitude>35.28</latitude>
-        <longitude>-113.95</longitude>
-	<observation_time>Last Updated on May 22, 6:54 am MST</observation_time>
-	<observation_time_rfc822>Fri, 22 May 2009 06:54:00 -0700 MST</observation_time_rfc822>
-        <weather>Fair</weather>
-        <temperature_string>70 F (21 C)</temperature_string>
-        <temp_f>70</temp_f>
-        <temp_c>21</temp_c>
-        <relative_humidity>42</relative_humidity>
-        <wind_string>From the Southeast at 9 MPH</wind_string>
-        <wind_dir>Southeast</wind_dir>
-        <wind_degrees>130</wind_degrees>
-        <wind_mph>9.2</wind_mph>
-        <wind_gust_mph>NA</wind_gust_mph>
-        <pressure_string>29.96&quot; (1007.5 mb)</pressure_string>
-        <pressure_mb>1007.5</pressure_mb>
-        <pressure_in>29.96</pressure_in>
-        <dewpoint_string>46 F (8 C)</dewpoint_string>
-        <dewpoint_f>46</dewpoint_f>
-        <dewpoint_c>8</dewpoint_c> 
-        <heat_index_string>NA</heat_index_string>         
-        <heat_index_f>NA</heat_index_f>
-        <heat_index_c>NA</heat_index_c>
-        <windchill_string>NA</windchill_string>
-        <windchill_f>NA</windchill_f>
-        <windchill_c>NA</windchill_c>
+	<latitude>35.28</latitude>
+	<longitude>-113.95</longitude>
+	<observation_time>Last Updated on Mar 27 2013, 6:51 am MST</observation_time>
+        <observation_time_rfc822>Wed, 27 Mar 2013 06:51:00 -0700</observation_time_rfc822>
+	<weather>Fair</weather>
+	<temperature_string>55.0 F (12.8 C)</temperature_string>
+	<temp_f>55.0</temp_f>
+	<temp_c>12.8</temp_c>
+	<relative_humidity>26</relative_humidity>
+	<wind_string>West at 3.5 MPH (3 KT)</wind_string>
+	<wind_dir>West</wind_dir>
+	<wind_degrees>270</wind_degrees>
+	<wind_mph>3.5</wind_mph>
+	<wind_kt>3</wind_kt>
+	<pressure_string>1008.0 mb</pressure_string>
+	<pressure_mb>1008.0</pressure_mb>
+	<pressure_in>29.92</pressure_in>
+	<dewpoint_string>21.0 F (-6.1 C)</dewpoint_string>
+	<dewpoint_f>21.0</dewpoint_f>
+	<dewpoint_c>-6.1</dewpoint_c>
 	<visibility_mi>10.00</visibility_mi>
- 	<icon_url_base>http://weather.gov/weather/images/fcicons/</icon_url_base>	
-	<icon_url_name>nskc.jpg</icon_url_name>
+ 	<icon_url_base>http://forecast.weather.gov/images/wtf/small/</icon_url_base>
 	<two_day_history_url>http://www.weather.gov/data/obhistory/KIGM.html</two_day_history_url>
-	<ob_url>http://www.nws.noaa.gov/data/METAR/KIGM.1.txt</ob_url>
+	<icon_url_name>nskc.png</icon_url_name>
+	<ob_url>http://www.weather.gov/data/METAR/KIGM.1.txt</ob_url>
 	<disclaimer_url>http://weather.gov/disclaimer.html</disclaimer_url>
 	<copyright_url>http://weather.gov/disclaimer.html</copyright_url>
 	<privacy_policy_url>http://weather.gov/notice.html</privacy_policy_url>
 </current_observation>
-	}}}
+}}}
