@@ -1,48 +1,56 @@
 {{{
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
-<channel>
-
+		<rss version="2.0" xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">
+			<channel>
+		
 <title>Yahoo! Weather - New York, NY</title>
-<link>http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/10001_c.html</link>
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/USNY0996_c.html</link>
 <description>Yahoo! Weather for New York, NY</description>
 <language>en-us</language>
-<lastBuildDate>Mon, 25 May 2009 7:11 am EDT</lastBuildDate>
+<lastBuildDate>Wed, 27 Mar 2013 9:49 am EDT</lastBuildDate>
 <ttl>60</ttl>
 <yweather:location city="New York" region="NY"   country="US"/>
-<yweather:units temperature="C" distance="km" pressure="mb" speed="kph"/>
-<yweather:wind chill="20"   direction=""   speed="0" />
-<yweather:atmosphere humidity="68"  visibility="16.09"  pressure="0"  rising="0" />
-<yweather:astronomy sunrise="5:31 am"   sunset="8:15 pm"/>
+<yweather:units temperature="C" distance="km" pressure="mb" speed="km/h"/>
+<yweather:wind chill="2"   direction="280"   speed="16.09" />
+<yweather:atmosphere humidity="53"  visibility="16.09"  pressure="1013.1"  rising="0" />
+<yweather:astronomy sunrise="6:46 am"   sunset="7:13 pm"/>
 <image>
 <title>Yahoo! Weather</title>
 <width>142</width>
 <height>18</height>
 <link>http://weather.yahoo.com</link>
-<url>http://l.yimg.com/a/i/us/nws/th/main_142b.gif</url>
+<url>http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif</url>
 </image>
 <item>
-<title>Conditions for New York, NY at 7:11 am EDT</title>
+<title>Conditions for New York, NY at 9:49 am EDT</title>
 <geo:lat>40.67</geo:lat>
 <geo:long>-73.94</geo:long>
-<link>http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/10001_c.html</link>
-<pubDate>Mon, 25 May 2009 7:11 am EDT</pubDate>
-<yweather:condition  text="Partly Cloudy"  code="30"  temp="20"  date="Mon, 25 May 2009 7:11 am EDT" />
+<link>http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/USNY0996_c.html</link>
+<pubDate>Wed, 27 Mar 2013 9:49 am EDT</pubDate>
+<yweather:condition  text="Fair"  code="34"  temp="6"  date="Wed, 27 Mar 2013 9:49 am EDT" />
 <description><![CDATA[
-<img src="http://l.yimg.com/a/i/us/we/52/30.gif"/><br />
+<img src="http://l.yimg.com/a/i/us/we/52/34.gif"/><br />
 <b>Current Conditions:</b><br />
-Partly Cloudy, 20 C<BR />
+Fair, 6 C<BR />
 <BR /><b>Forecast:</b><BR />
-Mon - Partly Cloudy. High: 25 Low: 13<br />
-Tue - PM Showers. High: 15 Low: 12<br />
+Wed - Mostly Sunny. High: 9 Low: 2<br />
+Thu - Mostly Cloudy. High: 10 Low: 2<br />
+Fri - Partly Cloudy. High: 11 Low: 3<br />
+Sat - Partly Cloudy. High: 11 Low: 3<br />
+Sun - Mostly Cloudy. High: 10 Low: 7<br />
 <br />
-<a href="http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/USNY0996_c.html">Full Forecast at Yahoo! Weather</a><BR/>
-(provided by The Weather Channel)<br/>
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/USNY0996_c.html">Full Forecast at Yahoo! Weather</a><BR/><BR/>
+(provided by <a href="http://www.weather.com" >The Weather Channel</a>)<br/>
 ]]></description>
-<yweather:forecast day="Mon" date="25 May 2009" low="13" high="25" text="Partly Cloudy" code="30" />
-<yweather:forecast day="Tue" date="26 May 2009" low="12" high="15" text="PM Showers" code="39" />
-<guid isPermaLink="false">10001_2009_05_25_7_11_EDT</guid>
+<yweather:forecast day="Wed" date="27 Mar 2013" low="2" high="9" text="Mostly Sunny" code="34" />
+<yweather:forecast day="Thu" date="28 Mar 2013" low="2" high="10" text="Mostly Cloudy" code="28" />
+<yweather:forecast day="Fri" date="29 Mar 2013" low="3" high="11" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Sat" date="30 Mar 2013" low="3" high="11" text="Partly Cloudy" code="30" />
+<yweather:forecast day="Sun" date="31 Mar 2013" low="7" high="10" text="Mostly Cloudy" code="28" />
+<guid isPermaLink="false">USNY0996_2013_03_31_7_00_EDT</guid>
 </item>
 </channel>
-</rss><!-- api4.weather.re4.yahoo.com compressed Mon May 25 04:40:31 PDT 2009 -->
+</rss>
+
+<!-- api14.weather.bf1.yahoo.com Wed Mar 27 15:03:33 PST 2013 -->
 }}}
