@@ -7,7 +7,7 @@
     <iso_code data="US"/>
   </country>
   <country>
-    <name data="Gro?britannien und Nordirland"/>
+    <name data="Großbritannien und Nordirland"/>
     <iso_code data="UK"/>
   </country>
   <country>
@@ -71,7 +71,7 @@
     <iso_code data="SE"/>
   </country>
   <country>
-    <name data="D?nemark"/>
+    <name data="Dänemark"/>
     <iso_code data="DK"/>
   </country>
   <country>
@@ -91,7 +91,7 @@
     <iso_code data="NZ"/>
   </country>
   <country>
-    <name data="China Festland"/>
+    <name data="China (Festland)"/>
     <iso_code data="CN"/>
   </country>
   <country>
@@ -103,7 +103,7 @@
     <iso_code data="HK"/>
   </country>
   <country>
-    <name data="Macao"/>
+    <name data="Macau"/>
     <iso_code data="MO"/>
   </country>
   <country>
@@ -111,7 +111,7 @@
     <iso_code data="BE"/>
   </country>
   <country>
-    <name data="?sterreich"/>
+    <name data="Österreich"/>
     <iso_code data="AT"/>
   </country>
   <country>
@@ -135,7 +135,7 @@
     <iso_code data="HU"/>
   </country>
   <country>
-    <name data="Malaysien"/>
+    <name data="Malaysia"/>
     <iso_code data="MY"/>
   </country>
   <country>
@@ -151,7 +151,7 @@
     <iso_code data="PT"/>
   </country>
   <country>
-    <name data="Rum?nien"/>
+    <name data="Rumänien"/>
     <iso_code data="RO"/>
   </country>
   <country>
@@ -163,7 +163,7 @@
     <iso_code data="TH"/>
   </country>
   <country>
-    <name data="T?rkei"/>
+    <name data="Türkei"/>
     <iso_code data="TR"/>
   </country>
   <country>
@@ -175,7 +175,7 @@
     <iso_code data="VN"/>
   </country>
   <country>
-    <name data="S?dafrika"/>
+    <name data="Südafrika"/>
     <iso_code data="ZA"/>
   </country>
   <country>
@@ -187,7 +187,7 @@
     <iso_code data="DZ"/>
   </country>
   <country>
-    <name data="?gypten"/>
+    <name data="Ägypten"/>
     <iso_code data="EG"/>
   </country>
   <country>
