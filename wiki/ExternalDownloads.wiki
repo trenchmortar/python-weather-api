@@ -1,5 +1,7 @@
 #summary Link to external downloads
 
-= Downloads =
+= Notice =
 
-As of January 2014, downloads are no longer available from the Google Code project page. Visit the [https://launchpad.net/python-weather-api/+download Downloads] page at the Python Weather API Launchpad project page for all current and new releases.
+As of January 2014, downloads are no longer available from the Google Code project page. 
+
+Visit the [https://launchpad.net/python-weather-api/+download Downloads] page at the Python Weather API Launchpad project page for all current and new releases.
