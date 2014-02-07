@@ -4,4 +4,4 @@
 
 As of January 2014, downloads are no longer available from the Google Code project page. 
 
-Visit the [https://launchpad.net/python-weather-api/+download Downloads] section of the [https://launchpad.net/python-weather-api Python Weather API project page] at Launchpad for all current and new releases.
+Visit the [https://launchpad.net/python-weather-api/+download Downloads] section of the [https://launchpad.net/python-weather-api Python Weather API project page] at Launchpad for all current and future releases.
